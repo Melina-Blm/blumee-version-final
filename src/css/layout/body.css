@@ -343,7 +343,6 @@
 .btn__tentez:hover {
     background-color: var(--dark-black);
     color: var(--white);
-    font-weight: 600;
 }
 
 /*Début de la partie card formulaire*/
