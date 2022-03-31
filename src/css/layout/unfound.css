@@ -1,0 +1,110 @@
+
+.logo_blumee_404{
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    width: 50px;
+}
+
+.number_404, .whoops, .not_found, .home_button{
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.error_404{
+    text-align: center;
+    width: 100%;
+}
+.number_404{
+    font-family: var(--404);
+    margin: 0;
+    padding: 0;
+    font-size: 140px;
+    opacity: 0.47;
+    text-align: center;
+    text-shadow: 0px 0px 30px grey;
+}
+
+.whoops{
+    font-family: var(--Montserrat);
+    font-size: 25px;
+    opacity: 0.47;
+}
+
+.bloc_not_found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.not_found{
+ font-family: var(--Montserrat);
+ font-size: 18px;
+ margin-left: 2%;
+ width: 400px;
+}
+
+.sign{
+    width: 75px;
+}
+
+.bloc_home_button{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bloc_arrow_button{
+    display: flex;
+    border: 2px solid var(--white);
+    box-shadow: 0px 0px 20px grey;
+}
+
+.home_button{
+    font-family: var(--Montserrat);
+    font-size: 20px;
+    padding: 20px 20px 20px 20px ;
+}
+
+.arrow_home{
+    width: 42px;
+    padding-right: 20px;
+}
+
+.social_icons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10%
+}
+
+.icon_instagram, .icon_facebook{
+    padding-right: 20px;
+}
+
+.icon_tiktok, .icon_facebook, .icon_instagram{
+    width: 30px;
+}
+
+@media screen and (max-width: 510px){
+    .sign{
+        margin-left: 2%;
+        width: 50px;
+    }
+    .not_found{
+        font-size: 15px;
+    }
+    .bloc_home_button{
+        font-size: 20px;
+    }
+    .social_icons{
+        padding-top: 20px;
+    }
+    .home_button{
+        font-size: 13px;
+    }
+    .arrow_home{
+        width: 20px;
+    }
+}

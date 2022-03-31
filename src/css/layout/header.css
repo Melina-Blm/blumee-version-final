@@ -1,0 +1,89 @@
+header{
+    font-family: var(--Raleway);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    padding-bottom: 0;
+    padding-left: 5%;
+    background: linear-gradient(90deg, var(--baby-blue), 50%, var(--blue)) ;
+}
+
+.logo__blumee{
+    cursor: pointer;
+    margin-right: auto;
+    width: 60px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav__links li a:hover  {
+    padding-top: 10px;
+    border-top: 1px solid var(--white); 
+}
+
+
+/*header page inscription*/
+.nav__links__signup li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav__links__signup li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav__links__signup li a:hover  {
+    padding-top: 10px;
+    border-top: 1px solid var(--white); 
+}
+/**/
+
+/*header page connexion*/
+.nav__links__signin li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav__links__signin li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav__links__signin li a:hover  {
+    padding-top: 10px;
+    border-top: 1px solid var(--white); 
+}
+/**/
+
+.link__signup{
+    font-family: var(--Raleway);
+    font-size: 16px;
+    margin-left: 50px;
+    color: var(--blue);
+    padding: 9px 25px;
+    background-color: var(--white);
+    opacity: 1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.link__signup:hover{
+   background-color: transparent;
+   border: 1px solid white;
+    color: var(--white);
+}
+
+.link__signup__00{
+    visibility: hidden;
+}

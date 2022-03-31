@@ -1,12 +1,370 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Blumee - Accueil</title>
 </head>
+
 <body>
-    
+
+    <!--Code du menu-->
+
+    <header class="header__index">
+        <a class="logo__blumee" href="index.html"><img class="logo__blumee" src="assets/icons/logo_transparent.svg"
+                alt="logo Blumee"></a>
+
+        <nav>
+            <ul class="nav__links">
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#about__us">À propos</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="section__00">
+
+            <div class="bloc__accueil__gauche">
+                <div class="bloc__home">
+                    <h1 class="title__blumee">Blumee</h1>
+                    <h2 class="tagline"> believe in being better </h2>
+                </div>
+                <div class="margin__signin">
+                    <a class="link__signin" href="#newsletter">Se tenir au courant</a>
+                </div>
+            </div>
+
+            <div class="bloc__accueil__droit">
+                <img class="image__accueil" src="assets/img/accueil_mockup.png" alt="image accueil">
+            </div>
+
+        </div>
+
+
+        <!--Fin de la page d'accueil, début des explications.-->
+
+        <div class="bloc__sep__line">
+            <div class="sep__line"></div>
+        </div>
+
+        <div class="section__cards">
+            <div class="bloc__cards__00">
+                <div class="corps__explication__00">
+                    <h2 class="title__explication__00"> La solution pour progresser !</h2>
+                    <p class="text__explication__00">Blumee t'accompagne pour ton éducation grâce à de nombreux <span
+                            class="bold">espaces d'échanges</span>.
+                    <p class="text__explication__00"> En misant principalement sur l'entraide, nous souhaitons que
+                        chacun
+                        puisse trouver une aide sans aucune <span class="bold"> perte de temps</span> ! </p>
+                </div>
+                <div class="bloc__little__card__00">
+                    <div class="center__education">
+                        <img class="icon__education" src="assets/icons/education.svg" alt="Icone de carte ">
+                    </div>
+                </div>
+            </div>
+            <div class="bloc__cards__01">
+                <div class="corps__explication__00">
+                    <h2 class="title__explication__00"> UN GAIN DE TEMPS CONSEQUENT!</h2>
+                    <p class="text__explication__00">Accédez à une <span class="bold"> aide </span> dont vous avez
+                        besoin
+                        quand vous en avez besoin grâce à <span class="bold"> Blumee </span>!.
+                    <p class="text__explication__00"> En demandant une aide, vous êtes sûr de l’a recevoir dans des
+                        <span class="bold"> délais </span>très court.
+                    </p>
+                </div>
+                <div class="bloc__little__card__01">
+                    <div class="center__paper">
+                        <img class="icon__paper" src="assets/icons/paper.svg" alt="Icone de carte ">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Fin de la page des explications, début de la page fonctionnalités-->
+
+
+        <div class="section__02">
+
+
+            <h2 class="title__features">Fonctionnalités</h2>
+
+            <div class="feature__01">
+                <div class="grid__feature">
+
+                    <div class="grid__icon1">
+
+
+                        <div class="grid__text__left">
+
+                            <div>
+                                <img class="resize__icon" src="assets/icons/favorite.svg" alt="Icone favoris">
+                            </div>
+                            <h3 class="title__feature">L’ESPACE BLUMEE</h3>
+                            <p>
+                                Demander ou au contraire, proposer de l’aide facilement dans l’espace d’échange
+                                Blumee !
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid__icon2">
+
+                        <div class="grid__text__right">
+                            <div>
+                                <img class="resize__icon" src="assets/icons/feature.svg" alt="Icone favoris">
+                            </div>
+                            <h3 class="title__feature"> Un fil de discussion privé</h3>
+                            <p>
+                                Accédez à un fil de discussion privé vous permettant de recevoir l’aide adéquat.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid__icon3">
+                        <div class="grid__text__left">
+                            <div>
+                                <img class="resize__icon" src="assets/icons/feature_2.svg" alt="Icone favoris">
+                            </div>
+                            <h3 class="title__feature">Blumee Pass</h3>
+                            <p>Le Blumee Pass propose un contenu varié avec une possibilité d’envoi d’images pour plus
+                                d’aide.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="mockup__center">
+                    <img class="mockup" src="assets/icons/iphone.svg" alt="Mockup téléphone">
+                </div>
+            </div>
+        </div>
+
+
+        <!--Fin de la section fonctionnalités, début card premium-->
+
+        <div class="section__03">
+            <div id="cercle">
+                <div class="align">
+                    <div class="card__premium">
+                        <div class="under__card__premium">
+                            <h2 class="title__premium">Blumee Pass</h2>
+                            <p class="card__price">3.99€/mois</p>
+
+                            <div class="column__card__check">
+                                <div class="card__check">
+                                    <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche ">
+                                    <div class="align__text__premium">
+                                        <p class="text__premium">Demandes d'<span class="bold">aides illimitées</span>.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="card__check">
+                                    <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche">
+
+                                    <div class="align__text__premium">
+                                        <p class="text__premium">Contenus disponibles sans <span class="bold">aucune
+                                                publicités</span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="card__check">
+                                    <img class="icon__check" src="assets/icons/check.svg" alt="Icone coche">
+                                    <div class="align__text__premium">
+                                        <p class="text__premium">Possibilité d'<span class="bold">envoie de
+                                                photos</span>
+                                            pour plus d'aides.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="btn__card">
+                                    <a href="404.html" class="btn__tentez">Tentez!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fin de la section premium, début de la section à propos-->
+        <div class="center__title__about">
+            <h2 id="about__us" class="title__about"> Qui sommes-nous ?</h2>
+        </div>
+        <div class="section__about">
+
+            <div class="guys">
+                <div class="david">
+                    <div class="grid__portrait">
+                        <div class="portrait">
+                            <img class="width__portrait__david" src="assets/icons/david.svg" alt="Image de l'équipe">
+                        </div>
+                    </div>
+                    <div class="text__presentation">
+                        <div class="bloc__name">
+                            <p class="name">David SARKISSIAN</p>
+                        </div>
+                        <div class="bloc__job">
+                            <p class="job">DESIGN - DEVELOPPEMENT - COMMUNICATION</p>
+                        </div>
+                    </div>
+                    <div class="team__links">
+                        <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank"><img
+                                class="link__linkedin" src="assets/icons/linkedin.svg" alt="LinkedIn de l'équipe"></a>
+                        <a href="https://www.instagram.com/blumeefr/"><img class="link__instagram"
+                                src="assets/icons/instagram_2.svg" alt="Instagram de l'équipe"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guys">
+                <div class="melina">
+                    <div class="grid__portrait">
+                        <div class="portrait">
+                            <img class="width__portrait__melina" src="assets/icons/melina.svg" alt="Image de l'équipe">
+                        </div>
+                    </div>
+                    <div class="text__presentation">
+                        <div class="bloc__name">
+                            <p class="name">Mélina BOUCHELLEGHEM</p>
+                        </div>
+                        <div class="bloc__job">
+                            <p class="job">DESIGN - DEVELOPPEMENT - COMMUNICATION</p>
+                        </div>
+                    </div>
+                    <div class="team__links">
+                        <a href="https://www.linkedin.com/in/m%C3%A9lina-b-67639a224" target="_blank"><img
+                                class="link__linkedin" src="assets/icons/linkedin.svg" alt="LinkedIn de l'équipe"></a>
+                        <a href="https://www.instagram.com/melivql/"><img class="link__instagram"
+                                src="assets/icons/instagram_2.svg" alt="Instagram de l'équipe"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guys">
+                <div class="baptiste">
+                    <div class="grid__portrait">
+                        <div class="portrait">
+                            <img class="width__portrait__baptiste" src="assets/icons/baptiste.svg"
+                                alt="Image de l'équipe">
+                        </div>
+                    </div>
+                    <div class="text__presentation">
+                        <div class="bloc__name">
+                            <p class="name">Baptiste ROGNON</p>
+                        </div>
+                        <div class="bloc__job">
+                            <p class="job">DESIGN - COMMUNICATION - DEVELOPPEMENT </p>
+                        </div>
+                    </div>
+                    <div class="team__links">
+                        <a href="https://www.linkedin.com/in/baptiste-rognon-184ab520a/" target="_blank"><img
+                                class="link__linkedin" src="assets/icons/linkedin.svg" alt="LinkedIn de l'équipe"></a>
+                        <a href="https://www.instagram.com/baptiste_rognon/"><img class="link__instagram"
+                                src="assets/icons/instagram_2.svg" alt="Instagram de l'équipe"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Fin de la section à propos, début de la section formulaire de contact-->
+
+        <div class="bloc__quote">
+            <h3 class="text__quote">VOYEZ BLUMEE COMME VOTRE
+                ESPACE D’ETUDE !</h3>
+        </div>
+
+        <div class="logo__center">
+            <img id="contact" src="assets/icons/logo_black.svg" alt="Logo Blumee">
+        </div>
+
+        <div class="align__form">
+            <div class="card__form">
+                <div class="container">
+                    <h2 class="title__contact">Contactez-nous !</h2>
+                    <form action="/action_page.php">
+
+                        <input class="input__00" id="emailAddress" type="email" name="email" placeholder="E-mail*">
+
+                        <textarea class="input__00" id="subject" name="subject" placeholder="Votre message"
+                            style="height:200px"></textarea>
+
+                        <div>
+                            <input id="condition" type="checkbox" name="check" checked>
+                            <label for="condition">J’accepte les <span class="bold">conditions
+                                    d’utilisations</span>.</label>
+                        </div>
+
+
+                        <div class="btn__send__center">
+                            <input class="btn__send__img" type="image" src="assets/icons/button_send.svg"
+                                name="clicImage" alt="Bouton envoyer">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="bloc__title__newsletter">
+            <h2 class="title__newsletter">Tenez-vous au courant !</h2>
+        </div>
+        <div id="newsletter" class="bloc__newsletter">
+
+            <input class="input__send" type="text" name="email" placeholder="E-mail*">
+            <input class="btn__send" type="submit">
+
+
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="center__footer">
+            <img class="logo__footer" src="assets/icons/logo_transparent.svg" alt="Logo Blumee">
+            <h2 class="title__footer">Blumee.</h2>
+            <p class="text__footer">believe in being better !</p>
+            <div class="bloc__sep__line__footer">
+                <div class="footer__separation"></div>
+            </div>
+
+            <div class="footer__img">
+                <a href="https://www.tiktok.com/fr/" target="_blank"><img class="footer__tiktok"
+                        src="assets/icons/tiktok.svg" alt="Icone Tiktok"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="footer__facebook"
+                        src="assets/icons/facebook.svg" alt="Icone Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footer__instagram"
+                        src="assets/icons/instagram.svg" alt="Icone Instagram"></a>
+            </div>
+
+            <p class="legal"> © Blumee. All <span class="legal__bold"> rights reserved - <a href="404.html"> C.G.U</a>
+                </span></p>
+        </div>
+    </footer>
 </body>
+
 </html>

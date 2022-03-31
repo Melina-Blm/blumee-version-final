@@ -1,0 +1,27 @@
+:root{/* Color styles */
+    --baby-blue: rgba(120, 210, 216, 1);
+    --peach: rgba(216, 120, 120, 1);
+    --dark-black: rgba(28, 28, 28, 1);
+    --soft-gray: rgba(246, 246, 246, 1);
+    --soft-beige: rgba(232, 224, 205, 1);
+    --white: rgba(255, 255, 255, 1);
+    --blue: rgba(51, 22, 227, 1);
+    
+    /* Text-size styles */
+    /* base size: raleway-regular-19 (19px) */
+    --header-h1: 7.37rem;
+    --raleway-regular-19: 1rem;
+    --raleway-medium-19: 1.32rem;
+    --quicksand-h2: 3.68rem;
+    --mulish-light-15: 1.32rem;
+    --mulish-bold-25: 1.32rem;
+    --header-tagline-50: 2.63rem;
+    --text-404: 18.42rem;
+    
+    /*Police supplémentaire*/
+    --404 : 'Ramabhadra', sans-serif;  
+    --Montserrat: 'Montserrat', sans-serif;  
+    --Raleway: 'Raleway', sans-serif;
+    --Quicksand:'Quicksand', sans-serif;
+    --Mulish: 'Mulish', sans-serif;
+    }

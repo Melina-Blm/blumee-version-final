@@ -1,0 +1,72 @@
+/*Code responsive*/
+
+/*Responsive pour la partie fonctionnalité*/
+
+@media screen and (max-width: 920px){
+    .mockup__center{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .grid__feature{
+       display: block;
+    }
+    .feature__01{
+        display: block;
+    }
+
+    .grid__icon2, .grid__icon1, .grid__icon3{
+        margin-bottom: 20px;
+    }
+
+    .section__02{
+        margin-bottom: 60px;
+    }
+}
+
+
+
+@media screen and (min-width:1441px) {
+    /*Responsive page 404*/
+    .logo_blumee_404{
+        width: 130px!important;
+    }
+
+    .number_404{
+        font-size: 200px!important;
+    }
+    
+    .not_found {
+        font-size: 25px!important;
+        width: 700px!important;
+    }
+
+    .sign {
+        width: 130px!important;
+    }
+
+    .home_button {
+        font-size: 35px!important;
+    }
+
+    .icon_tiktok, .icon_facebook, .icon_instagram {
+        width: 70px!important;
+    }
+
+    /*Responsive fonctionnalités*/
+    .mockup__center{
+        padding-right: 145px!important;
+    }
+
+    .grid__text__right{
+        margin-right: 150px!important;
+    }
+
+    .grid__text__left{
+    margin-left: 150px!important; 
+    }
+
+    .section__03{
+        margin-top: 50px!important;
+    }
+}

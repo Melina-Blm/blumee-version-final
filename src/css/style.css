@@ -1,0 +1,29 @@
+/*Import de la police*/
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap');
+
+
+
+/*Import du main.css*/
+@import url('base/main.css');
+
+/*Utils -> variables | ajout des polices et des couleurs Figma*/
+@import url('utils/variables.css');
+
+/*Import de la feuille de style pour l'en tête*/
+@import url('layout/header.css');
+
+/*Import de la feuille de style pour le corps*/
+@import url('layout/body.css');
+
+/*Import de la feuille de style pour le pied de page*/
+@import url('layout/footer.css');
+
+/*Import de la feuille de style pour le responsive*/
+@import url('layout/responsive.css');
+
+/*Import de la feuille de style pour la page 404*/
+@import url('layout/unfound.css');
